@@ -1,0 +1,102 @@
+.dropdown {
+    width: 500px;
+    margin-left: 120px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    min-width: 250px;
+    box-shadow: -18px 10px 5px -2px rgba(73, 73, 77, 0.1),
+    18px 10px 5px 2px rgba(73, 73, 77, 0.1);
+    border-radius: 30px;
+    
+}
+
+.menu {
+
+    margin: 0;
+    padding: 0;
+    display: flex;
+    width: 500px;
+    flex-direction: column;
+    align-items: center;
+    max-height: 621px;
+    list-style-type: none;
+    overflow-y: scroll;
+    background-color: bisque;
+    border-bottom-left-radius: 30px;
+    /* border-bottom-left: ; */
+
+}
+
+
+button {
+    font-family: 'FontName';
+    min-width: 240px;
+}
+
+.but_list {
+    /* border: 1px solid bisque; */
+    font-size: 30px;
+    min-width: 490px;
+    border: 1px solid bisque;
+    min-height: 40px;
+    background-color: bisque;
+    
+}
+
+.but_list:hover {
+    box-shadow: inset -8px 10px 5px -2px rgba(73, 73, 77, 0.1);
+    background-color: rgb(253, 240, 224);
+}
+
+.menu::-webkit-scrollbar-track {
+    /* border: 1px solid darkgray; */
+    padding: 2px 0;
+    background-color: blanchedalmond;
+    border-bottom-right-radius: 30px;
+  }
+  
+.menu::-webkit-scrollbar {
+width: 10px;
+
+}
+
+.menu::-webkit-scrollbar-thumb {
+border-radius: 10px;
+box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+background-color: bisque;;
+border: 1px solid darkgray;
+
+}
+
+.img {
+    height: 623px;
+    width: 500px;
+    bottom: 9.9%;
+    position: absolute;
+    background-image: url('/src/red_sq.jpg');
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+
+}
+
+.but_drop {
+    background-color: bisque;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border: 1px solid darkgray;
+    font-size: 40px;
+    min-width: 500px;
+    min-height: 80px;
+}
+
+.but_drop:hover {
+    box-shadow: inset -8px 10px 5px -2px rgba(73, 73, 77, 0.1);
+    background-color: rgb(253, 240, 224);
+}
+
+@font-face {
+	font-family: 'FontName'; 
+	src: url(/src/RubikDoodleShadow-Regular.ttf); 
+}

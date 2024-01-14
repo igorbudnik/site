@@ -1,0 +1,73 @@
+.Map {
+    font-family: sans-serif;
+    text-align: center;
+}
+
+/* * {
+    box-sizing: border-box;
+
+} */
+
+#root {
+    height: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+.map {
+    display: flex;
+    /* align-items: left; */
+    /* justify-content: center; */
+    position: relative;
+    z-index: 0;
+}
+
+.leaflet-container {
+    position: relative;
+    z-index: 1;
+    height: 700px;
+    width: 800px;
+    border-radius: 30px;
+    /* border: 2px solid darkgray; */
+}
+
+#center {
+    min-width: 1700px;
+    /* background-color: bisque; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90%;
+}
+
+.walk {
+    font-size: 40px;
+    display: flex;
+    /* flex-direction: column; */
+	align-items: center;
+    justify-content: center;
+    text-shadow: 20px 10px 20px darkgray;
+}
+.moscow {
+    text-align: left;
+    height: 0px;
+    text-shadow: 20px 10px 20px darkgray;
+}
+.mim {
+    text-align: left;
+    height: 36px;
+    text-shadow: 20px 10px 20px darkgray;
+}
+.mosc_mim {
+    font-size: 14.5px;
+    display: flex;
+    flex-direction: column;
+	/* align-items: center; */
+    justify-content: center;
+    
+}
+

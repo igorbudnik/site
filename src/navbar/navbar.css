@@ -1,0 +1,37 @@
+.navbar {
+    display: flex;
+    flex-direction: column;
+    position:absolute;
+    left: 20px;
+    top: 17px;
+    font-size: 40px;
+}
+
+@font-face {
+	font-family: 'FontName'; 
+	src: url(/src/RubikDoodleShadow-Regular.ttf); 
+}
+
+.inner_text {
+    position: relative;
+    left: 10px
+}
+
+.inner {
+    margin: 5px;
+    /* text-align: match-parent; */
+    /* justify-content: left; */
+    text-decoration: none;
+    font-family: 'FontName';
+    color: black;
+    border-radius: 20px;
+    min-width: 300px;
+    background-color: bisque;
+    border: 2px solid darkgray;
+    
+  }
+
+.inner:hover {
+    box-shadow: inset -8px 10px 5px -2px rgba(73, 73, 77, 0.1);
+    background-color: rgb(253, 240, 224);
+}

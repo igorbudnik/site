@@ -1,0 +1,33 @@
+.timeline {
+    position: relative;
+    top: 339px;
+    background-color: beige;
+    box-shadow: -18px 10px 5px -2px rgba(73, 73, 77, 0.1),
+                18px 10px 5px 2px rgba(73, 73, 77, 0.1);
+    width: 1600px;
+}
+
+.name_line {
+    font-family: 'FontName';
+    font-size: 50px;
+    text-shadow: 2px 20px 20px darkgray;
+}
+
+.lines {
+    /* margin: 30px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* padding: 20px */
+}
+
+.frame {
+    border-radius: 20px;
+    width: 1400px;
+}
+
+@font-face {
+	font-family: 'FontName'; 
+	src: url(/src/RubikDoodleShadow-Regular.ttf); 
+}
